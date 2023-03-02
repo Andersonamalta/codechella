@@ -1,0 +1,6 @@
+@import "./global.css";
+@import "../utilidade/cores.css";
+@import "./header.css";
+@import "../utilidade/componentes.css";
+@import "../utilidade/tipografia.css";
+@import "./footer.css";
