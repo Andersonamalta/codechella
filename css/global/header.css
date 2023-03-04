@@ -20,19 +20,11 @@
     display: none;
 }
 
-.banner {
-    max-width: 100%;
-}
-
 @media (max-width: 900px) {
     .menu {
         display: flex;
         flex-direction: column;
         gap: 20px;
-    }
-
-    .banner {
-        max-width: 100%;
     }
 }
 

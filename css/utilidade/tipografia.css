@@ -1,8 +1,28 @@
-.font-1 {
+.font-1-64 {
     font-family: "Calistoga", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 83px;
 }
 
-.font-2-x {
+.font-1-48 {
+    font-family: "Calistoga", cursive;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+}
+
+.font-2-20 {
+    font-family: "Raleway", sans-serif;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.font-2-20-700 {
     font-family: "Raleway", sans-serif;
     font-size: 20px;
     font-style: normal;
@@ -10,10 +30,34 @@
     line-height: 40px;
 }
 
-.font-2 {
+.font-2-32 {
     font-family: "Raleway", sans-serif;
-    font-size: 20px;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.font-2-48 {
+    font-family: "Raleway", sans-serif;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 56px;
+}
+
+.font-2-40 {
+    font-family: "Raleway", sans-serif;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+.font-2-32-500 {
+    font-family: "Raleway", sans-serif;
+    font-size: 32px;
     font-style: normal;
     font-weight: 500;
-    line-height: 40px;
+    line-height: 38px;
 }
