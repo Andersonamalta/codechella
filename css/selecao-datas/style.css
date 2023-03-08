@@ -13,9 +13,30 @@
     gap: 30px;
 }
 
-.selecao-datas-evento h1,
-span {
+.selecao-datas-evento h1 {
     color: var(--cor-p0);
+    font-size: 32px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.selecao-datas-evento span {
+    color: var(--cor-p0);
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+}
+
+.selecao-datas-evento button {
+    font-size: 20px;
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 40px;
 }
 
 .icon-button {
