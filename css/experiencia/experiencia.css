@@ -1,0 +1,128 @@
+.sec-experiencia {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+
+.info-experiencia {
+    display: flex;
+    align-items: center;
+    margin: 50px 0;
+    gap: 40px;
+}
+
+.info-experiencia img {
+    width: 550px;
+    height: 350px;
+    object-fit: cover;
+    object-position: center bottom;
+    border-radius: 10px;
+}
+
+.info-experiencia h1 {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--cor-p0);
+}
+
+.info-experiencia p {
+    font-family: "Raleway", sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 40px;
+    align-self: stretch;
+    max-width: 45ch;
+    text-align: start;
+    color: var(--cor-p0);
+}
+
+.texto-acessibilidade {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.texto-sustentabilidade {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 24px;
+}
+
+.texto-sustentabilidade p {
+    text-align: end;
+}
+
+.texto-sustentabilidade {
+    order: 0;
+}
+
+.img-sustentabilidade {
+    order: 1;
+}
+
+.texto-atracoes {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+@media (max-width: 900px) {
+    .info-experiencia {
+        flex-direction: column;
+        margin: 50px 0;
+    }
+
+    .texto-acessibilidade {
+        align-items: center;
+        gap: 5px;
+    }
+
+    .info-experiencia p {
+        text-align: center;
+    }
+
+    .texto-sustentabilidade {
+        align-items: center;
+        gap: 5px;
+    }
+
+    .texto-sustentabilidade {
+        order: 1;
+    }
+
+    .img-sustentabilidade {
+        order: 0;
+    }
+
+    .sec-experiencia {
+        gap: 0px;
+    }
+
+    .texto-atracoes {
+        align-items: center;
+        gap: 5px;
+    }
+}
+
+@media (max-width: 615px) {
+    .info-experiencia img {
+        width: 300px;
+    }
+
+    .texto-acessibilidade {
+        text-align: center;
+    }
+
+    .texto-sustentabilidade {
+        text-align: center;
+    }
+
+    .texto-atracoes {
+        text-align: center;
+    }
+}
