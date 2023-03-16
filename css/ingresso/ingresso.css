@@ -1,0 +1,115 @@
+.caixa {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 48px;
+    margin-bottom: 48px;
+    gap: 48px;
+}
+
+.titulo-ingresso {
+    font-family: "Calistoga";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 62px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: var(--cor-p0);
+}
+
+.formulario {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    width: 795px;
+    column-gap: 25px;
+}
+
+.formulario label {
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 38px;
+    color: var(--cor-p0);
+    margin-bottom: 10px;
+}
+
+.formulario input {
+    margin-bottom: 32px;
+    border: none;
+    padding: 16px;
+}
+
+.nome {
+    grid-column: 1/3;
+}
+
+.email {
+    grid-column: 1/3;
+}
+
+.input-tipo {
+    grid-column: 1/2;
+    height: 46px;
+    border: none;
+
+    padding-left: 10px;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 38px;
+    color: var(--cor-p4);
+}
+
+.dataNasc {
+    grid-row: 5/5;
+    grid-column: 2/2;
+}
+
+.botao {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding: 8px 16px;
+    gap: 16px;
+    width: 164px;
+    height: 56px;
+    background: #4650bd;
+    box-shadow: 4px 4px 0px #000000;
+    border-radius: 16px;
+    border: none;
+    cursor: pointer;
+
+    grid-column: 1/3;
+    font-family: "Raleway";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 40px;
+    color: var(--cor-p0);
+    justify-self: center;
+}
+
+@media (max-width: 900px) {
+}
+
+@media (max-width: 615px) {
+    .formulario {
+        display: flex;
+        flex-direction: column;
+        width: 350px;
+    }
+
+    .botao {
+        width: 100%;
+    }
+
+    .input-tipo {
+        margin-bottom: 32px;
+    }
+}

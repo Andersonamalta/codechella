@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CodeChella</title>
+
+    <link rel="icon" href="./img/Símbolo-cinza 1.svg" type="image/svg+xml">
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Calistoga&family=Raleway&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="header-bg">
+        <div class=" container menu">
+            <a href="./">
+                <img src="././img/Logo-2.svg" alt="Logo festival">
+            </a>
+
+            <nav>
+                <ul class="lista-menu font-2-20-700">
+                    <li><a href="./experiencia.html">A experiência</a></li>
+                    <li><a href="./setores.html">Mapa de Setores</a></li>
+                    <li><a href="./informacoes.html">Informações</a></li>
+                    <li><a href="./ingressos.html">Ingressos</a></li>
+                </ul>
+            </nav>
+
+            <a class="icon-menu" href="./"><img src="./img/menu.svg" alt="Menu"></a>
+        </div>
+    </header>
+
+    <section class="banner">
+
+        <img src="./img/informacoes.jpg" alt="Banner">
+
+        <div class="titulo-informacoes">
+            <span>Informações Gerais</span>
+        </div>
+
+    </section>
+
+
+    <main>
+
+        <section class="container perguntas">
+            <h1 class="titulo">Perguntas Frequentes:</h1>
+
+            <div class="perguntas-itens">
+                <details>
+                    <summary class="titulo-pergunta">Quais serão as atrações?</summary>
+                    <p class="resposta">Teremos dois dias de shows, o primeiro (11/03) com bandas de rock, e o segundo
+                        (12/03) com bandas
+                        pop. Confira o line-up em detalhes clicando neste link!</p>
+                </details>
+
+                <details>
+                    <summary class="titulo-pergunta">Qual é a classificação etária?</summary>
+                    <p class="resposta">A partir de 16 anos, todo mundo pode entrar. De 13 a 15 anos, tem que estar
+                        acompanhado dos pais
+                        ou
+                        responsáveis legais. Menores de 10 anos não podem entrar.</p>
+                </details>
+                <details>
+                    <summary class="titulo-pergunta">Quais são os setores disponíveis?</summary>
+                    <div class="resposta">
+                        <p>Pista Premium</p>
+                        <p>Pista Comum</p>
+                        <p>Cadeiras térreo</p>
+                        <p>Cadeiras superiores</p>
+                        <p>Rampas</p>
+                    </div>
+                </details>
+                <details>
+                    <summary class="titulo-pergunta">Quais são os itens proibidos?</summary>
+                    <p class="resposta">Garrafas, latas, bebidas, utensílios de armazenagem, embalagens rígidas com
+                        tampa, capacetes,
+                        cadeiras ou bancos, armas de fogo e armas brancas, objetos pontiagudos, cortantes e/ou
+                        perfurantes,
+                        correntes e cinturões, fogos de artifício, objetos de vidro, substâncias inflamáveis, cigarro
+                        eletrônico, corrosivas e ou tóxicas, revistas, jornais, livros e copo térmico ou similares.</p>
+                </details>
+                <details>
+                    <summary class="titulo-pergunta">Quem tem direito a meia-entrada?</summary>
+                    <p class="resposta">De acordo com a Lei Federal, têm direito ao benefício da meia-entrada aqueles
+                        que preencherem os
+                        requisitos e apresentarem os documentos comprobatórios.</p>
+                </details>
+            </div>
+
+
+            <!--<article class="perguntas container">
+
+                <h1 class="titulo-perguntas">Perguntas Frequentes:</h1>
+
+                <dl>
+                    <div>
+                        <dt>
+                            <button aria-controls="pergunta1" aria-expanded="true">Quais serão as atrações?</button>
+                        </dt>
+                        <dd class="resposta ativa" id="pergunta1">Teremos dois dias de shows, o primeiro (11/03) com
+                            bandas de
+                            rock, e o
+                            segundo (12/03) com bandas pop. Confira o line-up em detalhes clicando neste link!</dd>
+                    </div>
+                    <div>
+                        <dt>
+                            <button aria-controls="pergunta2" aria-expanded="false">Qual é a classificação
+                                etária?</button>
+                        </dt>
+                        <dd class="resposta" id="pergunta2">A partir de 16 anos, todo mundo pode entrar. De 13 a 15
+                            anos,
+                            tem que estar
+                            acompanhado dos pais ou responsáveis legais. Menores de 10 anos não podem entrar.</dd>
+                    </div>
+                    <div>
+                        <dt>
+                            <button aria-controls="pergunta3" aria-expanded="false">Quais são os setores
+                                disponíveis?</button>
+                        </dt>
+                        <dd class="resposta" id="pergunta3">Pista Premium, Pista Comum, Cadeiras térreo, Cadeiras
+                            superiores e Rampas
+                        </dd>
+                    </div>
+                    <div>
+                        <dt>
+                            <button aria-controls="pergunta4" aria-expanded="false">Quais são os itens
+                                proibidos?</button>
+                        </dt>
+                        <dd class="resposta" id="pergunta4">Garrafas, latas, bebidas, utensílios de armazenagem,
+                            embalagens
+                            rígidas com
+                            tampa, capacetes, cadeiras ou bancos, armas de fogo e armas brancas, objetos pontiagudos,
+                            cortantes e/ou perfurantes, correntes e cinturões, fogos de artifício, objetos de vidro,
+                            substâncias inflamáveis, cigarro eletrônico, corrosivas e ou tóxicas, revistas, jornais,
+                            livros e copo térmico ou similares.
+                        </dd>
+                    </div>
+                    <div>
+                        <dt>
+                            <button aria-controls="pergunta5" aria-expanded="false">Quem tem direito a
+                                meia-entrada?</button>
+                        </dt>
+                        <dd class="resposta" id="pergunta5">De acordo com a Lei Federal, têm direito ao benefício da
+                            meia-entrada aqueles
+                            que preencherem os requisitos e apresentarem os documentos comprobatórios.
+                        </dd>
+                    </div>
+                </dl>
+            </article>-->
+        </section>
+
+
+    </main>
+
+
+    <footer class="footer-bg">
+        <div class="container footer">
+
+            <div class="footer-1">
+
+                <a href="./">
+                    <img src="././img/Logo-2.svg" alt="Logo festival">
+                </a>
+
+                <div class="midias">
+                    <span class="font-2-20">Acesse nossas redes:</span>
+
+                    <div>
+                        <a href="./">
+                            <img src="././img/Ícones redes socias-18.svg" alt="redes sociais">
+                        </a>
+
+                        <a href="./">
+                            <img src="././img/Ícones redes socias-19.svg" alt="redes sociais">
+                        </a>
+
+                        <a href="./">
+                            <img src="././img/Ícones redes socias-16.svg" alt="redes sociais">
+                        </a>
+
+                        <a href="./">
+                            <img src="././img/Ícones redes socias-17.svg" alt="redes sociais">
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="footer-2">
+
+                <span class="font-2-20">Desenvolvido por Anderson M.</span>
+                <span class="font-2-20">Projeto fictício sem fins comerciais.</span>
+
+            </div>
+
+        </div>
+
+    </footer>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>

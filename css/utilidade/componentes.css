@@ -7,7 +7,7 @@
     margin-right: auto;
 }
 
-button {
+.button {
     display: flex;
     flex-direction: row;
     justify-content: center;
