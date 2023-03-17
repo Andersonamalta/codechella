@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CodeChella</title>
 
-    <link rel="icon" href="./img/Símbolo-cinza 1.svg" type="image/svg+xml">
+    <link rel="icon" href="./img/símbolo-cinza.svg" type="image/svg+xml">
     <link rel="stylesheet" href="./css/style.css">
 
     <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -54,10 +54,10 @@
         <form class="formulario">
 
             <label class="nome" id="nome" for="nome">Nome Completo:</label>
-            <input class="nome" type="text">
+            <input class="nome" id="inputNome" name="nome" type="text">
 
             <label class="email" id="email" for="email">Email:</label>
-            <input class="email" type="text">
+            <input class="email" id="inputEmail" name="email" type="text">
 
             <label id="tipo" for="tipo">Tipo de ingresso:</label>
             <select class="input-tipo" name="tipo" id="">
@@ -65,9 +65,10 @@
             </select>
 
             <label class="dataNasc" id="dataNasc" for="dataNasc">Data de nascimento:</label>
-            <input type="text">
+            <input id="inputDataNasc" name="dataNasc" type="text">
 
-            <button class="botao">Avançar!<img class="icon-button" src="./img/seta-botao.svg" alt=""></button>
+            <button type="button" onclick="window.open('./seu-ingresso.html')" target="_blank"
+                class="botao">Avançar!<img class="icon-button" src="./img/seta-botao.svg" alt=""></button>
 
         </form>
 
@@ -88,19 +89,19 @@
 
                     <div>
                         <a href="./">
-                            <img src="././img/Ícones redes socias-18.svg" alt="redes sociais">
+                            <img src="././img/icones-redes-socias-18.svg" alt="redes sociais">
                         </a>
 
                         <a href="./">
-                            <img src="././img/Ícones redes socias-19.svg" alt="redes sociais">
+                            <img src="././img/icones-redes-socias-19.svg" alt="redes sociais">
                         </a>
 
                         <a href="./">
-                            <img src="././img/Ícones redes socias-16.svg" alt="redes sociais">
+                            <img src="././img/icones-redes-socias-16.svg" alt="redes sociais">
                         </a>
 
                         <a href="./">
-                            <img src="././img/Ícones redes socias-17.svg" alt="redes sociais">
+                            <img src="././img/icones-redes-socias-17.svg" alt="redes sociais">
                         </a>
                     </div>
                 </div>

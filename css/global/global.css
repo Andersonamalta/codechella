@@ -117,6 +117,22 @@ dd {
     left: 440px;
 }
 
+.titulo-seu-ingresso {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    color: var(--cor-p0);
+    font-size: 64px;
+    font-family: "Calistoga", cursive;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 83px;
+    top: 270px;
+    left: 400px;
+}
+
 .banner-footer {
     height: 400px;
     max-width: 100%;
@@ -155,6 +171,11 @@ dd {
         top: 330px;
         left: 105px;
     }
+
+    .titulo-seu-ingresso {
+        top: 330px;
+        left: 80px;
+    }
 }
 
 @media (max-width: 615px) {
@@ -190,6 +211,14 @@ dd {
         font-size: 35px;
         line-height: 42px;
         left: 22px;
+        top: 270px;
+    }
+
+    .titulo-seu-ingresso {
+        text-align: center;
+        font-size: 35px;
+        line-height: 42px;
+        left: 14px;
         top: 270px;
     }
 }
